@@ -1,0 +1,88 @@
+{	
+	"_id": "product Id",
+	"category" : "smartphone",
+	"product name" : "samsung",
+	"model" : "a53",
+	"product info" : {
+		"series" : "A",
+		"price" : "34000",
+		"seller": "teja store",
+		"discount" : "10",
+		"description" : "model pedda bok",
+		"color" : "red"
+	},
+	"core info" : {
+		"os": "android",
+		"memory" : "12gb",
+		"storage" : "256gb",
+		"network" : "4g/5g",
+		"processor" : "snapdragon 8 gen 1",
+		"wifi" : "dual band wifi 6",
+		"bluetooth": "5.2",
+		"power supply": "45 watt",
+		"screen size": "6.4",
+	}
+}
+
+// product
+{	
+	"id": "1234",
+	"category" : "smartphone",
+	"name" : "samsung",
+	"model" : "a53",
+	"series" : "A",
+	"price" : "34000",
+	"seller": "teja store",
+	"discount" : "10",
+	"description" : "model pedda bok",
+	"color" : "red",
+	"os": "android",
+	"memory" : "12gb",
+	"storage" : "256gb",
+	"network" : "4g/5g",
+	"processor" : "snapdragon 8 gen 1",
+	"wifi" : "dual band wifi 6",
+	"bluetooth": "5.2",
+	"power_supply": "45 watt",
+	"screen_size": "6.4",
+}
+
+//user info
+{
+	"username":"ara",
+	"password":"123",
+	"name":"aravind",
+	"email":"ara@gmail.com",
+	"phone":"898989",
+	"address":"kotturu",
+	"dob":"5-02-2001"
+}
+// user order data
+{
+    orderDetails:{
+        orderId:{
+            type: String,
+            required: true
+        },
+        productId:{
+            type: String,
+            required: true
+		},
+		userId:{
+			type: String,
+            required: true
+		}
+        paymentId:{
+            type: String,
+            required: true
+        },
+		paymentType:{
+			type: String,
+            required: true
+		}
+        address:{
+            type: String,
+            required: true
+        }
+    }
+}
